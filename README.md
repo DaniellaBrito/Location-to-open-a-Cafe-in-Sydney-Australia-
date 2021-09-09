@@ -65,7 +65,8 @@ Cluster 1: Suburbs with a moderate number of cafes.
 Cluster 2: Suburbs with a high concentration of Cafe.
 
 
-Evaluation
+Evaluation - 
+
 Cluster 0 is displayed as the red color represents a greater opportunity and high potential but also suffers from the risk of having fewer customers as those areas are not busy areas.
 
 As a new business owner it wouldn’t be wise enough to choose cluster 2.

@@ -40,6 +40,28 @@ We would need a list of suburbs, the location of each suburb, and how many cafes
 - venues in each suburb from foursquare API https://foursquare.com/
 
 
+- Feature Engineering
+Converted the data into dummy variables using get_dummies method of Pandas package that will be essential for performing clustering algorithm.
+Grouped the data by Suburb & also taking the mean of the frequency of occurrence of each category.
+I extracted the data of the Cafeteria only.
+Our final data frame had two variables: suburb name and the mean of the frequency of occurrence of cafes.
+
+- Modeling
+
+Performed clustering on the data using K-means clustering.
+
+Found out 3 clusters based on the frequency of occurrence of Cafes in each suburb.
+
+Found out the suburb which had the highest concentration of Cafes and also the lowest concentration
+
+
+- Results
+Categorized the data into 3 categories using K-means clustering based on the frequency of occurrence for ‘Cafe’.
+
+Cluster 0: Suburbs with a low number of Cafes.
+Cluster 1: Suburbs with a moderate number of cafes.
+Cluster 2: Suburbs with a high concentration of Cafe.
+
 
 
 
